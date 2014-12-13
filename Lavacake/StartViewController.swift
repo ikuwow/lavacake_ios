@@ -19,14 +19,17 @@ class StartViewController: UIViewController {
     }
     
     override func viewWillAppear(animated: Bool) {
+
+        // Do any additional setup after loading the view, typically from a nib.
         
+        var test = SNSApiController()
+        test.updateTwitterInfo("")
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+
 }
 
