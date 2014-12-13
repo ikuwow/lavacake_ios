@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB605FF1A3CAB710054B0BC /* SwifteriOS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB605F81A3CAB300054B0BC /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696791A3C4D9500656B57 /* Accounts.framework */; };
 		6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696811A3C529200656B57 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC696881A3C538D00656B57 /* SNSApiController.swift */; };
@@ -20,6 +21,41 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6EB605F51A3CAB300054B0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		6EB605F71A3CAB300054B0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		6EB605F91A3CAB300054B0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		6EB605FB1A3CAB300054B0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		6EB605FD1A3CAB300054B0BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C5A1944AECB00993175;
+			remoteInfo = SwifterDemoMacTests;
+		};
 		6EC696801A3C529200656B57 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
@@ -57,6 +93,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6EB605FF1A3CAB710054B0BC /* SwifteriOS.framework in Copy Frameworks */,
 				6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
@@ -65,6 +102,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		6EC696791A3C4D9500656B57 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		6EC696881A3C538D00656B57 /* SNSApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSApiController.swift; sourceTree = "<group>"; };
@@ -101,6 +139,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EB605EE1A3CAB300054B0BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EB605F61A3CAB300054B0BC /* SwifterDemoiOS.app */,
+				6EB605F81A3CAB300054B0BC /* SwifteriOS.framework */,
+				6EB605FA1A3CAB300054B0BC /* SwifterMac.framework */,
+				6EB605FC1A3CAB300054B0BC /* SwifterDemoMac.app */,
+				6EB605FE1A3CAB300054B0BC /* SwifterDemoMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		6EC6967C1A3C529200656B57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +166,7 @@
 				6EC696791A3C4D9500656B57 /* Accounts.framework */,
 				7D5FA1751A3C0FF3009D9D44 /* Lavacake */,
 				6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */,
+				6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */,
 				7D5FA18B1A3C0FF3009D9D44 /* LavacakeTests */,
 				7D5FA1741A3C0FF3009D9D44 /* Products */,
 			);
@@ -246,6 +297,10 @@
 					ProductGroup = 6EC6967C1A3C529200656B57 /* Products */;
 					ProjectRef = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
 				},
+				{
+					ProductGroup = 6EB605EE1A3CAB300054B0BC /* Products */;
+					ProjectRef = 6EB605ED1A3CAB300054B0BC /* Swifter.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -256,6 +311,41 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6EB605F61A3CAB300054B0BC /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 6EB605F51A3CAB300054B0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB605F81A3CAB300054B0BC /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 6EB605F71A3CAB300054B0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB605FA1A3CAB300054B0BC /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 6EB605F91A3CAB300054B0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB605FC1A3CAB300054B0BC /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 6EB605FB1A3CAB300054B0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EB605FE1A3CAB300054B0BC /* SwifterDemoMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterDemoMacTests.xctest;
+			remoteRef = 6EB605FD1A3CAB300054B0BC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		6EC696811A3C529200656B57 /* Alamofire.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -429,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,
@@ -445,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,

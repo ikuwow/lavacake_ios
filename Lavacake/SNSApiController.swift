@@ -7,22 +7,21 @@
 //
 
 import Alamofire
+import SwifteriOS
 
 class SNSApiController: NSObject {
 
     /*
     * Update twitter infomation
     */
-    func updateTwitterInfo(userId: String) {
+    func updatePersonInfo(userId: String) {
         let url = "http://ec2-54-64-228-5.ap-northeast-1.compute.amazonaws.com/users/register.json"
         println(url)
         
-        let params = ["userId":userId]
+        let params = ["username":userId]
         println(params)
         
-        // Alamofire.request(.GET, url, parameters: params)
-        
-        Alamofire.request(.GET, url, parameters: params)
+        Alamofire.request(.POST, url, parameters: params)
             .responseJSON {(request, response, JSON, error) in
                 
                 if error == nil {
@@ -34,6 +33,38 @@ class SNSApiController: NSObject {
                 }
         }
     }
+
     
+    /*
+    * Update twitter infomation
+    */
+    func updateTwitterInfo(username: String){
+        let swifter = Swifter(consumerKey: "F5bTTXyAbLCxbAWY4nVoqb3yy", consumerSecret: "rZDlgpC8qaV6RerZ2nHCpN17p0q8P3pqk6TMoYwU8WJI56pQRL")
+        
+        
+        let failureHandler: ((NSError) -> Void) = {
+            error in
+            //self.alertWithTitle("Error", message: error.localizedDescription)
+            NSLog("test twitter api failure")
+        }
+        
+        swifter.getStatusesUserTimelineWithUserID("11263", count: 1, sinceID: nil, maxID: nil, trimUser: true, contributorDetails: false, includeEntities: true, success: {
+            (statuses: [JSONValue]?) in
+            
+            // Successfully fetched timeline, so lets create and push the table view
+            //let tweetsViewController = self.storyboard!.instantiateViewControllerWithIdentifier("TweetsViewController") as TweetsViewController
+            
+            if statuses != nil {
+                //tweetsViewController.tweets = statuses!
+                //self.presentViewController(tweetsViewController, animated: true, completion: nil)
+            }
+            
+            NSLog("test twitter api success")
+            println(statuses)
+            
+            }, failure: failureHandler)
+
+    }
+
     
 }

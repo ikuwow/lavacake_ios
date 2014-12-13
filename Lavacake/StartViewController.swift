@@ -15,6 +15,7 @@ class StartViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         var test = SNSApiController()
+        //test.updatePersonInfo("ikuwow")
         test.updateTwitterInfo("")
     }
     
