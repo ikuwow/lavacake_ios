@@ -7,33 +7,19 @@
 //
 
 import UIKit
+import Accounts
+import Social
+import Twitter
 
-class StartViewController: UIViewController, FBLoginViewDelegate {
-    
-     @IBOutlet var fbLoginView : FBLoginView!
+class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.fbLoginView.delegate = self
-        self.fbLoginView.readPermissions = ["public_profile", "email", "user_friends"]
+        
     }
     
-    // Facebook Delegate Methods
-    func loginViewShowingLoggedInUser(loginView : FBLoginView!) {
-        println("User Logged In")
-        println("This is where you perform a segue.")
-    }
-    
-    func loginViewFetchedUserInfo(loginView : FBLoginView!, user: FBGraphUser){
-        println("User Name: \(user.name)")
-    }
-    
-    func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
-        println("User Logged Out")
-    }
-    
-    func loginView(loginView : FBLoginView!, handleError:NSError) {
-        println("Error: \(handleError.localizedDescription)")
+    override func viewWillAppear(animated: Bool) {
+        
     }
     
     override func didReceiveMemoryWarning() {
