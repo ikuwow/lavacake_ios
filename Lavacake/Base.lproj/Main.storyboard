@@ -50,6 +50,10 @@
                                     <segue destination="MyG-07-P5t" kind="modal" id="yX8-18-qQo"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="neT-RU-CBh" customClass="FBLoginView">
+                                <rect key="frame" x="70" y="142" width="160" height="284"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
