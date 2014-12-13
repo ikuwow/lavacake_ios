@@ -65,6 +65,36 @@ class SNSApiController: NSObject {
             }, failure: failureHandler)
 
     }
+    
+    
+    
+    func updateFacebookInfo(username: String){
+        
+        //app id : 816960178347987
+        //app secret : 7362f5eeccdc7925cc7e9dcb87d5c503
+        
+        /*
+        // 【access_token】を参照
+        $access_token = '...';
+        // 【ID】を参照
+        $id = '...';
+        
+        ////////// ↑ 解説を参照 //////////
+        
+        
+        $url = 'https://graph.facebook.com/' . $id . '/feed?access_token=' . $access_token;
+        // ※取得数に上限を設ける場合は、'limit' を指定する
+        // 例：上限を5にする
+        // .../feed?access_token=' . $access_token . '&limit=5';
+        
+        // Graph APIはJSON形式のデータをレスポンスとして返す
+        $feed = json_decode(file_get_contents($url));
+        
+        // 結果を出力
+        var_dump($feed);
+*/
+        
+    }
 
     
 }

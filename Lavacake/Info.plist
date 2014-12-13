@@ -18,21 +18,21 @@
 	<string>1.0</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
-	<key>FacebookAppID</key>
-	<string>814871621892014</string>
-	<key>FacebookDisplayName</key>
-	<string>Lavacake</string>
 	<key>CFBundleURLTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb814871621892014</string>
+				<string>fb816960178347987</string>
 			</array>
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>FacebookAppID</key>
+	<string>816960178347987</string>
+	<key>FacebookDisplayName</key>
+	<string>Lavacake</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
