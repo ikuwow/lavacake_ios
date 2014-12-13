@@ -13,16 +13,16 @@ class SNSApiController: NSObject {
     /*
     * Update twitter infomation
     */
-    func updateTwitterInfo(userId: String) {
+    func updateTwitterInfo(username: String) {
         let url = "http://ec2-54-64-228-5.ap-northeast-1.compute.amazonaws.com/users/register.json"
         println(url)
         
-        let params = ["userId":userId]
+        let params = ["username":username]
         println(params)
         
         // Alamofire.request(.GET, url, parameters: params)
         
-        Alamofire.request(.GET, url, parameters: params)
+        Alamofire.request(.POST, url, parameters: params)
             .responseJSON {(request, response, JSON, error) in
                 
                 if error == nil {
