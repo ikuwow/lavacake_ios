@@ -7,11 +7,19 @@
 //
 
 import UIKit
+import Accounts
+import Social
+import Twitter
 
 class StartViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+
         // Do any additional setup after loading the view, typically from a nib.
         
         var test = SNSApiController()
