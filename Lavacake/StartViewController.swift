@@ -33,8 +33,10 @@ class StartViewController: UIViewController {
     
     @IBAction func login(sender: UIButton){
         let userName = nameBox.text
-        var test = SNSApiController()
-        test.updateTwitterInfo(userName)
+        var snsCliant = SNSApiController()
+        snsCliant.updatePersonInfo(userName)
+
+        snsCliant.updateTwitterInfo("")
     }
 
 }
