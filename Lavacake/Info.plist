@@ -19,7 +19,7 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>FacebookAppID</key>
-	<string>814871621892014</string>
+	<string>816960178347987</string>
 	<key>FacebookDisplayName</key>
 	<string>Lavacake</string>
 	<key>CFBundleURLTypes</key>
@@ -27,7 +27,7 @@
 		<dict>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>fb814871621892014</string>
+				<string>fb816960178347987</string>
 			</array>
 		</dict>
 	</array>

@@ -36,7 +36,7 @@ class StartViewController: UIViewController {
         var snsCliant = SNSApiController()
         snsCliant.updatePersonInfo(userName)
 
-        snsCliant.updateTwitterInfo("")
+        snsCliant.updateTwitterInfo("388740924")//いくおのツイッターID
     }
 
 }

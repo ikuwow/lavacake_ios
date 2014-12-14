@@ -40,7 +40,7 @@ class SNSApiController: NSObject {
     /*
     * Update twitter infomation
     */
-    func updateTwitterInfo(username: String){
+    func updateTwitterInfo(userId: String){
         let swifter = Swifter(consumerKey: "F5bTTXyAbLCxbAWY4nVoqb3yy", consumerSecret: "rZDlgpC8qaV6RerZ2nHCpN17p0q8P3pqk6TMoYwU8WJI56pQRL")
         
         
@@ -50,7 +50,7 @@ class SNSApiController: NSObject {
             NSLog("test twitter api failure")
         }
         
-        swifter.getStatusesUserTimelineWithUserID("11263", count: 1, sinceID: nil, maxID: nil, trimUser: true, contributorDetails: false, includeEntities: true, success: {
+        swifter.getStatusesUserTimelineWithUserID(userId, count: 10, sinceID: nil, maxID: nil, trimUser: true, contributorDetails: false, includeEntities: true, success: {
             (statuses: [JSONValue]?) in
             
             // Successfully fetched timeline, so lets create and push the table view

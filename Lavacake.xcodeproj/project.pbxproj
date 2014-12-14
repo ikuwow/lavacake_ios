@@ -284,6 +284,7 @@
 				7D5FA1701A3C0FF3009D9D44 /* Frameworks */,
 				7D5FA1711A3C0FF3009D9D44 /* Resources */,
 				6EC696861A3C531100656B57 /* Copy Frameworks */,
+				6EDAE84A1A3D1F5900A19473 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -443,6 +444,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EDAE84A1A3D1F5900A19473 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/Users/tanidahiroki/Desktop/lavacake_ios/facebook-ios-sdk/scripts/build_framework.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D5FA16F1A3C0FF3009D9D44 /* Sources */ = {
