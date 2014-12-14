@@ -20,6 +20,12 @@ class MylistViewController: UITableViewController, UITableViewDataSource, UITabl
         // Do any additional setup after loading the view, typically from a nib.
         mylistTableView.dataSource = self
         mylistTableView.delegate = self
+        // NavigationControllerのタイトルバー(NavigationBar)の色の変更
+        self.navigationController?.navigationBar.barTintColor = UIColor(red: 228/255, green: 68/255, blue: 36/255, alpha: 1)
+        // NavigationConrtollerの文字カラーの変更
+        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        // NavigationControllerのNavigationItemの色
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
     }
     
     override func didReceiveMemoryWarning() {
