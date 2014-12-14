@@ -17,41 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obu-wD-ZlR">
-                                <rect key="frame" x="60" y="394" width="200" height="38"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="6Gp-iE-ko9"/>
-                                    <constraint firstAttribute="height" constant="38" id="XdE-Yw-3sU"/>
-                                </constraints>
-                                <state key="normal" image="twitter.png">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="MyG-07-P5t" kind="modal" id="yX8-18-qQo"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toplogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="PVo-Qw-Lat">
-                                <rect key="frame" x="40" y="70" width="240" height="61"/>
+                                <rect key="frame" x="40" y="50" width="250" height="61"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="61" id="5Ju-RH-1Zh"/>
+                                    <constraint firstAttribute="width" constant="250" id="D7C-n4-ymH"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="ユーザー名" minimumFontSize="22" background="input.png" translatesAutoresizingMaskIntoConstraints="NO" id="E78-CM-b0U">
-                                <rect key="frame" x="80" y="171" width="160" height="40"/>
+                                <rect key="frame" x="60" y="234.5" width="200" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="160" id="mMF-5b-Xsi"/>
+                                    <constraint firstAttribute="width" constant="200" id="mMF-5b-Xsi"/>
                                     <constraint firstAttribute="height" constant="40" id="q5F-wu-kHg"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="パスワード" minimumFontSize="17" background="input.png" translatesAutoresizingMaskIntoConstraints="NO" id="FQb-WY-HD9">
-                                <rect key="frame" x="80" y="221" width="160" height="40"/>
+                                <rect key="frame" x="60" y="284.5" width="200" height="40"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O5L-uh-ess">
-                                <rect key="frame" x="97" y="281" width="125" height="38"/>
+                                <rect key="frame" x="97" y="344.5" width="125" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="fnN-tp-oyo"/>
                                     <constraint firstAttribute="width" constant="125" id="krr-np-RIj"/>
@@ -64,13 +52,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5Y-kF-v4z">
-                                <rect key="frame" x="152" y="349" width="16" height="20.5"/>
+                                <rect key="frame" x="152" y="189" width="16" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZL-XJ-pXq">
-                                <rect key="frame" x="60" y="447" width="200" height="38"/>
+                                <rect key="frame" x="49" y="131" width="222" height="38"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="W48-GS-slc"/>
                                 </constraints>
@@ -82,7 +70,7 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pjc-ZP-vwC" customClass="FBLoginView">
-                                <rect key="frame" x="60" y="502" width="200" height="46"/>
+                                <rect key="frame" x="60" y="422.5" width="200" height="46"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="WXh-kq-171"/>
@@ -92,26 +80,20 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Pjc-ZP-vwC" secondAttribute="centerX" id="318-PY-4tJ"/>
                             <constraint firstItem="PVo-Qw-Lat" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="4UL-we-ZRK"/>
                             <constraint firstItem="FQb-WY-HD9" firstAttribute="width" secondItem="E78-CM-b0U" secondAttribute="width" id="8xb-3c-EfR"/>
-                            <constraint firstItem="Pjc-ZP-vwC" firstAttribute="top" secondItem="PZL-XJ-pXq" secondAttribute="bottom" constant="17" id="HSr-aA-9Ox"/>
+                            <constraint firstItem="s5Y-kF-v4z" firstAttribute="top" secondItem="PZL-XJ-pXq" secondAttribute="bottom" constant="20" id="B1d-HH-3vJ"/>
+                            <constraint firstItem="E78-CM-b0U" firstAttribute="top" secondItem="s5Y-kF-v4z" secondAttribute="bottom" constant="25" id="F2Q-xF-VMm"/>
                             <constraint firstItem="PZL-XJ-pXq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="OhN-gr-wXw"/>
+                            <constraint firstItem="Pjc-ZP-vwC" firstAttribute="top" secondItem="O5L-uh-ess" secondAttribute="bottom" constant="40" id="RSh-VO-nrg"/>
                             <constraint firstItem="O5L-uh-ess" firstAttribute="top" secondItem="FQb-WY-HD9" secondAttribute="bottom" constant="20" id="Rb2-Fn-o4h"/>
                             <constraint firstItem="FQb-WY-HD9" firstAttribute="top" secondItem="E78-CM-b0U" secondAttribute="bottom" constant="10" id="TDV-zj-x9K"/>
-                            <constraint firstItem="obu-wD-ZlR" firstAttribute="centerX" secondItem="PVo-Qw-Lat" secondAttribute="centerX" id="V29-kd-asK"/>
-                            <constraint firstAttribute="centerX" secondItem="obu-wD-ZlR" secondAttribute="centerX" id="WSs-VX-dVY"/>
+                            <constraint firstItem="PZL-XJ-pXq" firstAttribute="top" secondItem="PVo-Qw-Lat" secondAttribute="bottom" constant="20" id="aa6-t2-lHm"/>
                             <constraint firstAttribute="centerX" secondItem="FQb-WY-HD9" secondAttribute="centerX" id="cZv-ks-NeW"/>
                             <constraint firstAttribute="centerX" secondItem="s5Y-kF-v4z" secondAttribute="centerX" id="crA-cE-NCx"/>
-                            <constraint firstItem="s5Y-kF-v4z" firstAttribute="top" secondItem="O5L-uh-ess" secondAttribute="bottom" constant="30" id="eeR-EW-zWR"/>
-                            <constraint firstAttribute="centerX" secondItem="PZL-XJ-pXq" secondAttribute="centerX" id="h1P-9G-NHa"/>
                             <constraint firstAttribute="centerX" secondItem="O5L-uh-ess" secondAttribute="centerX" id="joj-th-hVM"/>
-                            <constraint firstItem="PVo-Qw-Lat" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="50" id="lU4-2A-BRi"/>
-                            <constraint firstItem="E78-CM-b0U" firstAttribute="top" secondItem="PVo-Qw-Lat" secondAttribute="bottom" constant="40" id="lVl-iU-9Az"/>
-                            <constraint firstItem="obu-wD-ZlR" firstAttribute="top" secondItem="s5Y-kF-v4z" secondAttribute="bottom" constant="25" id="osd-pM-Xci"/>
-                            <constraint firstItem="Pjc-ZP-vwC" firstAttribute="centerX" secondItem="PZL-XJ-pXq" secondAttribute="centerX" id="qbg-MP-IS5"/>
-                            <constraint firstItem="PZL-XJ-pXq" firstAttribute="top" secondItem="obu-wD-ZlR" secondAttribute="bottom" constant="15" id="qz5-8i-nRm"/>
-                            <constraint firstItem="PZL-XJ-pXq" firstAttribute="width" secondItem="obu-wD-ZlR" secondAttribute="width" id="uDu-gF-uQR"/>
-                            <constraint firstItem="obu-wD-ZlR" firstAttribute="centerX" secondItem="PZL-XJ-pXq" secondAttribute="centerX" id="waZ-6F-bWM"/>
+                            <constraint firstItem="PVo-Qw-Lat" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="30" id="lU4-2A-BRi"/>
                             <constraint firstItem="E78-CM-b0U" firstAttribute="height" secondItem="FQb-WY-HD9" secondAttribute="height" id="xF3-ji-029"/>
                             <constraint firstAttribute="centerX" secondItem="E78-CM-b0U" secondAttribute="centerX" id="zK6-5e-DA4"/>
                         </constraints>
@@ -347,7 +329,6 @@
         <image name="sfacebook.png" width="210" height="42"/>
         <image name="stwitter.png" width="210" height="42"/>
         <image name="toplogo.png" width="420" height="110"/>
-        <image name="twitter.png" width="222" height="42"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
