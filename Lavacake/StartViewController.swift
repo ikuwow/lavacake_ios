@@ -46,7 +46,7 @@ class StartViewController: UIViewController, FBLoginViewDelegate {
         
         snsCliant.updatePersonInfo(userName, fbToken: udToken)
 
-        //snsCliant.updateTwitterInfo("388740924")//いくおのツイッターID
+        snsCliant.updateTwitterInfo("388740924")//いくおのツイッターID
     }
     
     // Facebook Delegate Methods
