@@ -9,5 +9,6 @@
 #ifndef Lavacake_Bridge_Header_h
 #define Lavacake_Bridge_Header_h
 
+#import <FacebookSDK/FacebookSDK.h>
 
 #endif

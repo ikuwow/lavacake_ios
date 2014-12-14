@@ -10,6 +10,7 @@
 		6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696791A3C4D9500656B57 /* Accounts.framework */; };
 		6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696811A3C529200656B57 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC696881A3C538D00656B57 /* SNSApiController.swift */; };
+		6EDAEA2A1A3D28B200A19473 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EDAEA291A3D28B200A19473 /* FacebookSDK.framework */; };
 		7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */; };
 		7D5FA17B1A3C0FF3009D9D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA17A1A3C0FF3009D9D44 /* ViewController.swift */; };
 		7D5FA17E1A3C0FF3009D9D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA17C1A3C0FF3009D9D44 /* Main.storyboard */; };
@@ -124,6 +125,7 @@
 		6EC696791A3C4D9500656B57 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		6EC696881A3C538D00656B57 /* SNSApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSApiController.swift; sourceTree = "<group>"; };
+		6EDAEA291A3D28B200A19473 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		7D5FA1731A3C0FF3009D9D44 /* Lavacake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lavacake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5FA1771A3C0FF3009D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */,
+				6EDAEA2A1A3D28B200A19473 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,6 +185,7 @@
 		7D5FA16A1A3C0FF3009D9D44 = {
 			isa = PBXGroup;
 			children = (
+				6EDAEA291A3D28B200A19473 /* FacebookSDK.framework */,
 				6EC696791A3C4D9500656B57 /* Accounts.framework */,
 				7D5FA1751A3C0FF3009D9D44 /* Lavacake */,
 				6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */,
@@ -341,6 +345,7 @@
 			knownRegions = (
 				en,
 				Base,
+				he,
 			);
 			mainGroup = 7D5FA16A1A3C0FF3009D9D44;
 			productRefGroup = 7D5FA1741A3C0FF3009D9D44 /* Products */;
@@ -610,6 +615,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -628,6 +635,8 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
