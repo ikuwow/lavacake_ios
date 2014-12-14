@@ -8,15 +8,19 @@
 
 import UIKit
 
-class SearchAccountViewController: UIViewController {
+class SearchAccountViewController: UIViewController, UISearchBarDelegate {
     
     var searchSNS: String = ""
 
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     @IBOutlet weak var naviTitle: UINavigationItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         naviTitle.title = searchSNS+" Search"
+        searchBar.showsCancelButton = true
+        searchBar.delegate = self
 
         // Do any additional setup after loading the view.
     }
@@ -24,6 +28,12 @@ class SearchAccountViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+
+    func searchBarSearchButtonClicked(searchBar: UISearchBar) {
+        println(searchBar.text)
+        // let searchQuery = searchBar.text
+        
     }
     
 
