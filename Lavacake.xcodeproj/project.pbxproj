@@ -10,6 +10,7 @@
 		6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696791A3C4D9500656B57 /* Accounts.framework */; };
 		6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696811A3C529200656B57 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC696881A3C538D00656B57 /* SNSApiController.swift */; };
+		7D59BFF21A3D24E9009BE68E /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D59BFF11A3D24E9009BE68E /* SearchResultsViewController.swift */; };
 		7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */; };
 		7D5FA17B1A3C0FF3009D9D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA17A1A3C0FF3009D9D44 /* ViewController.swift */; };
 		7D5FA17E1A3C0FF3009D9D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA17C1A3C0FF3009D9D44 /* Main.storyboard */; };
@@ -124,6 +125,7 @@
 		6EC696791A3C4D9500656B57 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		6EC696881A3C538D00656B57 /* SNSApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSApiController.swift; sourceTree = "<group>"; };
+		7D59BFF11A3D24E9009BE68E /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		7D5FA1731A3C0FF3009D9D44 /* Lavacake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lavacake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5FA1771A3C0FF3009D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				7D5FA17C1A3C0FF3009D9D44 /* Main.storyboard */,
 				A70FCB991A3CA987006329BA /* MylistViewController.swift */,
 				A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */,
+				7D59BFF11A3D24E9009BE68E /* SearchResultsViewController.swift */,
 				6EC696881A3C538D00656B57 /* SNSApiController.swift */,
 				A70FCB861A3C2D78006329BA /* Bridge-Header.h */,
 				7D5FA17F1A3C0FF3009D9D44 /* Images.xcassets */,
@@ -472,6 +475,7 @@
 				6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */,
 				7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */,
 				A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */,
+				7D59BFF21A3D24E9009BE68E /* SearchResultsViewController.swift in Sources */,
 				A70FCBA41A3CCAA4006329BA /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
