@@ -14,11 +14,11 @@ class SNSApiController: NSObject {
     /*
     * Update twitter infomation
     */
-    func updatePersonInfo(username: String) {
+    func updatePersonInfo(username: String, fbToken : String) {
         let url = "http://ec2-54-64-228-5.ap-northeast-1.compute.amazonaws.com/users/register.json"
         println(url)
         
-        let params = ["username":username]
+        let params = ["username":username, "fbaccessToken":fbToken]
         println(params)
         
         // Alamofire.request(.GET, url, parameters: params)
