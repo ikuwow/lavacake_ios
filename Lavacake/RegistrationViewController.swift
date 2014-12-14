@@ -29,11 +29,11 @@ class RegistrationViewController: UIViewController {
         if let id = segue.identifier {
             switch segue.identifier! {
                 case "searchTwitter":
-                    println("twitter")
-                    next.searchSNS = "twitter"
+                    println("Twitter")
+                    next.searchSNS = "Twitter"
                 case "searchFacebook":
-                    println("face")
-                    next.searchSNS = "facebook"
+                    println("Facebook")
+                    next.searchSNS = "Facebook"
             default:
                 println("engine")
             }

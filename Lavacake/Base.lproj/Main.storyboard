@@ -292,6 +292,9 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="done" id="eYt-zt-OKb"/>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="naviTitle" destination="etk-ol-TGY" id="76x-1g-Oog"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="APd-Be-c94" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="SMM-Na-Q7m" userLabel="Exit" sceneMemberID="exit"/>

@@ -12,8 +12,11 @@ class SearchAccountViewController: UIViewController {
     
     var searchSNS: String = ""
 
+    @IBOutlet weak var naviTitle: UINavigationItem!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        naviTitle.title = searchSNS+" Search"
 
         // Do any additional setup after loading the view.
     }
