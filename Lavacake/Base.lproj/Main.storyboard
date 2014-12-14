@@ -78,7 +78,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.95050370065789469" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="Pjc-ZP-vwC" secondAttribute="centerX" id="318-PY-4tJ"/>
                             <constraint firstItem="PVo-Qw-Lat" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="24" id="4UL-we-ZRK"/>
@@ -336,7 +336,7 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="LFk-Pv-EAU"/>
         <segue reference="WZb-fj-isL"/>
+        <segue reference="QWp-5a-pxU"/>
     </inferredMetricsTieBreakers>
 </document>
