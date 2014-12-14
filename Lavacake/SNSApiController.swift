@@ -61,8 +61,13 @@ class SNSApiController: NSObject {
                 //self.presentViewController(tweetsViewController, animated: true, completion: nil)
             }
             
+            var ct = CreateTimeline()
+            
             NSLog("test twitter api success")
-            println(statuses)
+            
+            println(statuses?[0]["text"])
+            ct.getDataFromJSON(statuses)
+            
             
             }, failure: failureHandler)
         

@@ -13,7 +13,7 @@ class TiemlineViewController: UITableViewController, UITableViewDataSource, UITa
     @IBOutlet var timeLineView: UITableView!
     let appDelegates:AppDelegate = UIApplication.sharedApplication().delegate as AppDelegate
     
-    var texts:[String] = ["comment1", "comment2", "comment3", "comment4"]
+    var texts:[String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +21,7 @@ class TiemlineViewController: UITableViewController, UITableViewDataSource, UITa
         timeLineView.dataSource = self
         timeLineView.delegate = self
         self.title = appDelegates.showName
+        texts = appDelegates.timeLineTextObject
     }
     
     override func didReceiveMemoryWarning() {
@@ -34,7 +35,8 @@ class TiemlineViewController: UITableViewController, UITableViewDataSource, UITa
     
     override func tableView(mylistTableView: UITableView, cellForRowAtIndexPath indexPath:NSIndexPath) -> UITableViewCell {
         var cell = tableView.dequeueReusableCellWithIdentifier("timeLineCell", forIndexPath: indexPath) as UITableViewCell
-        cell.imageView?.image = UIImage(named: "comment1.png")
+        cell.imageView?.image = UIImage(named: "twitterlogo.png")
+        cell.textLabel?.text = texts[indexPath.row]
         return cell
     }
     

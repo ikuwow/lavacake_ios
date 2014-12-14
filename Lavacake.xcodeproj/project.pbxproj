@@ -28,6 +28,8 @@
 		A70FCBA21A3CC5BD006329BA /* stwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCBA11A3CC5BD006329BA /* stwitter.png */; };
 		A70FCBA41A3CCAA4006329BA /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */; };
 		A70FCBA61A3CCB53006329BA /* comment1.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCBA51A3CCB53006329BA /* comment1.png */; };
+		A7443FF41A3D67F900AF5254 /* CreateTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7443FF31A3D67F900AF5254 /* CreateTimeline.swift */; };
+		A7443FFB1A3D7C9A00AF5254 /* twitterlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7443FFA1A3D7C9A00AF5254 /* twitterlogo.png */; };
 		A76CEAC11A3CD0000046FDB1 /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC01A3CD0000046FDB1 /* input.png */; };
 		A76CEAC41A3CD4D90046FDB1 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC31A3CD4D90046FDB1 /* Login.png */; };
 		A7F71FD11A3D5A66008AF0EB /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F71FD01A3D5A66008AF0EB /* toplogo.png */; };
@@ -151,6 +153,8 @@
 		A70FCBA11A3CC5BD006329BA /* stwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stwitter.png; sourceTree = "<group>"; };
 		A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		A70FCBA51A3CCB53006329BA /* comment1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment1.png; sourceTree = "<group>"; };
+		A7443FF31A3D67F900AF5254 /* CreateTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateTimeline.swift; sourceTree = "<group>"; };
+		A7443FFA1A3D7C9A00AF5254 /* twitterlogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterlogo.png; sourceTree = "<group>"; };
 		A76CEAC01A3CD0000046FDB1 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input.png; sourceTree = "<group>"; };
 		A76CEAC31A3CD4D90046FDB1 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 		A7F71FD01A3D5A66008AF0EB /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
@@ -221,6 +225,7 @@
 				A70FCB991A3CA987006329BA /* MylistViewController.swift */,
 				A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */,
 				6EC696881A3C538D00656B57 /* SNSApiController.swift */,
+				A7443FF31A3D67F900AF5254 /* CreateTimeline.swift */,
 				A70FCB861A3C2D78006329BA /* Bridge-Header.h */,
 				7D5FA17F1A3C0FF3009D9D44 /* Images.xcassets */,
 				7D5FA1811A3C0FF3009D9D44 /* LaunchScreen.xib */,
@@ -269,6 +274,7 @@
 		A70FCB8B1A3C8FB1006329BA /* image */ = {
 			isa = PBXGroup;
 			children = (
+				A7443FFA1A3D7C9A00AF5254 /* twitterlogo.png */,
 				A76CEAC31A3CD4D90046FDB1 /* Login.png */,
 				A76CEAC01A3CD0000046FDB1 /* input.png */,
 				A70FCBA51A3CCB53006329BA /* comment1.png */,
@@ -444,6 +450,7 @@
 				A70FCBA21A3CC5BD006329BA /* stwitter.png in Resources */,
 				A70FCB981A3CA096006329BA /* content1.png in Resources */,
 				A7F71FD41A3D5A6E008AF0EB /* icon-60@2x.png in Resources */,
+				A7443FFB1A3D7C9A00AF5254 /* twitterlogo.png in Resources */,
 				A7F71FD51A3D5A6E008AF0EB /* icon-60@3x.png in Resources */,
 				A76CEAC11A3CD0000046FDB1 /* input.png in Resources */,
 				A7F71FD11A3D5A66008AF0EB /* toplogo.png in Resources */,
@@ -486,6 +493,7 @@
 			files = (
 				7D5FA17B1A3C0FF3009D9D44 /* ViewController.swift in Sources */,
 				A70FCB9A1A3CA987006329BA /* MylistViewController.swift in Sources */,
+				A7443FF41A3D67F900AF5254 /* CreateTimeline.swift in Sources */,
 				6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */,
 				7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */,
 				A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */,

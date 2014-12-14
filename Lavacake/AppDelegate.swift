@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var showName:String?
     
+    var timeLineTextObject:[String] = []
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         sleep(1)

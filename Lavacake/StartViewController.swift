@@ -40,13 +40,13 @@ class StartViewController: UIViewController, FBLoginViewDelegate {
         let userName = nameBox.text
         var snsCliant = SNSApiController()
         let ud = NSUserDefaults.standardUserDefaults()
-        var udToken : String = ud.objectForKey("access_token") as String
+        /*var udToken : String = ud.objectForKey("access_token") as String
         
         println(udToken)
         
-        snsCliant.updatePersonInfo(userName, fbToken: udToken)
+        snsCliant.updatePersonInfo(userName, fbToken: udToken)*/
 
-        //snsCliant.updateTwitterInfo("388740924")//いくおのツイッターID
+        snsCliant.updateTwitterInfo("388740924")//いくおのツイッターID
     }
     
     // Facebook Delegate Methods

@@ -228,10 +228,25 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RG1-Ow-T9w" id="SBj-cK-jeO">
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MS8-gA-elX">
-                                            <rect key="frame" x="0.0" y="-1" width="320" height="44"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7TG-p7-40y">
+                                            <rect key="frame" x="0.0" y="-1" width="40" height="43.5"/>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C7g-8l-rsA">
+                                            <rect key="frame" x="256" y="8" width="42" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottomMargin" secondItem="C7g-8l-rsA" secondAttribute="bottom" constant="7" id="Ebw-il-Hca"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="7TG-p7-40y" secondAttribute="bottom" constant="-7" id="HLl-ZM-qs4"/>
+                                        <constraint firstItem="7TG-p7-40y" firstAttribute="leading" secondItem="SBj-cK-jeO" secondAttribute="leadingMargin" constant="-8" id="S10-Yx-07I"/>
+                                        <constraint firstItem="C7g-8l-rsA" firstAttribute="top" secondItem="SBj-cK-jeO" secondAttribute="topMargin" id="geg-I8-1Ou"/>
+                                        <constraint firstItem="C7g-8l-rsA" firstAttribute="leading" secondItem="7TG-p7-40y" secondAttribute="trailing" constant="25" id="mvg-PU-CXf"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="C7g-8l-rsA" secondAttribute="trailing" constant="14" id="xHy-fE-isR"/>
+                                        <constraint firstItem="7TG-p7-40y" firstAttribute="top" secondItem="SBj-cK-jeO" secondAttribute="topMargin" constant="-9" id="yuu-No-vNR"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                             </tableViewCell>
                         </prototypes>
@@ -247,7 +262,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zSV-fx-8hT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1172.2666666666667" y="357.83999999999997"/>
+            <point key="canvasLocation" x="1172" y="357"/>
         </scene>
         <!--Search Account-->
         <scene sceneID="Cfy-3u-TTa">
