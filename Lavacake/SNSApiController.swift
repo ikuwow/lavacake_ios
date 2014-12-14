@@ -7,6 +7,7 @@
 //
 
 import Alamofire
+import SwifteriOS
 
 class SNSApiController: NSObject {
 
