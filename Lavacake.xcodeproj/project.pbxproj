@@ -7,15 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696791A3C4D9500656B57 /* Accounts.framework */; };
+		6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6EC696811A3C529200656B57 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC696881A3C538D00656B57 /* SNSApiController.swift */; };
 		7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */; };
 		7D5FA17B1A3C0FF3009D9D44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA17A1A3C0FF3009D9D44 /* ViewController.swift */; };
 		7D5FA17E1A3C0FF3009D9D44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA17C1A3C0FF3009D9D44 /* Main.storyboard */; };
 		7D5FA1801A3C0FF3009D9D44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA17F1A3C0FF3009D9D44 /* Images.xcassets */; };
 		7D5FA1831A3C0FF3009D9D44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA1811A3C0FF3009D9D44 /* LaunchScreen.xib */; };
 		7D5FA18F1A3C0FF3009D9D44 /* LavacakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA18E1A3C0FF3009D9D44 /* LavacakeTests.swift */; };
+		7D7F325C1A3D113E001BDF34 /* SwifteriOS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCB871A3C3289006329BA /* StartViewController.swift */; };
+		A70FCB8E1A3C8FC4006329BA /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB8D1A3C8FC4006329BA /* toplogo.png */; };
+		A70FCB941A3C9E0B006329BA /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB931A3C9E0B006329BA /* facebook.png */; };
+		A70FCB961A3C9E12006329BA /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB951A3C9E12006329BA /* twitter.png */; };
+		A70FCB981A3CA096006329BA /* content1.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB971A3CA096006329BA /* content1.png */; };
+		A70FCB9A1A3CA987006329BA /* MylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCB991A3CA987006329BA /* MylistViewController.swift */; };
+		A70FCB9E1A3CACDA006329BA /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB9D1A3CACDA006329BA /* gear.png */; };
+		A70FCBA01A3CC5B6006329BA /* sfacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB9F1A3CC5B6006329BA /* sfacebook.png */; };
+		A70FCBA21A3CC5BD006329BA /* stwitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCBA11A3CC5BD006329BA /* stwitter.png */; };
+		A70FCBA41A3CCAA4006329BA /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */; };
+		A70FCBA61A3CCB53006329BA /* comment1.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCBA51A3CCB53006329BA /* comment1.png */; };
+		A76CEAC11A3CD0000046FDB1 /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC01A3CD0000046FDB1 /* input.png */; };
+		A76CEAC41A3CD4D90046FDB1 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC31A3CD4D90046FDB1 /* Login.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6EC696801A3C529200656B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		6EC696821A3C529200656B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		6EC696841A3C52D500656B57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
 		7D5FA1891A3C0FF3009D9D44 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7D5FA16B1A3C0FF3009D9D44 /* Project object */;
@@ -23,9 +61,69 @@
 			remoteGlobalIDString = 7D5FA1721A3C0FF3009D9D44;
 			remoteInfo = Lavacake;
 		};
+		7D7F32521A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		7D7F32541A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		7D7F32561A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		7D7F32581A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		7D7F325A1A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C5A1944AECB00993175;
+			remoteInfo = SwifterDemoMacTests;
+		};
+		7D7F325D1A3D114A001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		6EC696861A3C531100656B57 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7D7F325C1A3D113E001BDF34 /* SwifteriOS.framework in Copy Frameworks */,
+				6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		6EC696791A3C4D9500656B57 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		6EC696881A3C538D00656B57 /* SNSApiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SNSApiController.swift; sourceTree = "<group>"; };
 		7D5FA1731A3C0FF3009D9D44 /* Lavacake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lavacake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5FA1771A3C0FF3009D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +134,21 @@
 		7D5FA1881A3C0FF3009D9D44 /* LavacakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LavacakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5FA18D1A3C0FF3009D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5FA18E1A3C0FF3009D9D44 /* LavacakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavacakeTests.swift; sourceTree = "<group>"; };
+		7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
+		A70FCB861A3C2D78006329BA /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
+		A70FCB871A3C3289006329BA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		A70FCB8D1A3C8FC4006329BA /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
+		A70FCB931A3C9E0B006329BA /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		A70FCB951A3C9E12006329BA /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		A70FCB971A3CA096006329BA /* content1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content1.png; sourceTree = "<group>"; };
+		A70FCB991A3CA987006329BA /* MylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MylistViewController.swift; sourceTree = "<group>"; };
+		A70FCB9D1A3CACDA006329BA /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		A70FCB9F1A3CC5B6006329BA /* sfacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sfacebook.png; sourceTree = "<group>"; };
+		A70FCBA11A3CC5BD006329BA /* stwitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stwitter.png; sourceTree = "<group>"; };
+		A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		A70FCBA51A3CCB53006329BA /* comment1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment1.png; sourceTree = "<group>"; };
+		A76CEAC01A3CD0000046FDB1 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input.png; sourceTree = "<group>"; };
+		A76CEAC31A3CD4D90046FDB1 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EC6967A1A3C4D9500656B57 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +170,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC6967C1A3C529200656B57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EC696811A3C529200656B57 /* Alamofire.framework */,
+				6EC696831A3C529200656B57 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7D5FA16A1A3C0FF3009D9D44 = {
 			isa = PBXGroup;
 			children = (
+				6EC696791A3C4D9500656B57 /* Accounts.framework */,
 				7D5FA1751A3C0FF3009D9D44 /* Lavacake */,
+				6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */,
 				7D5FA18B1A3C0FF3009D9D44 /* LavacakeTests */,
 				7D5FA1741A3C0FF3009D9D44 /* Products */,
+				7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +204,14 @@
 			isa = PBXGroup;
 			children = (
 				7D5FA1781A3C0FF3009D9D44 /* AppDelegate.swift */,
+				A70FCB8B1A3C8FB1006329BA /* image */,
 				7D5FA17A1A3C0FF3009D9D44 /* ViewController.swift */,
+				A70FCB871A3C3289006329BA /* StartViewController.swift */,
 				7D5FA17C1A3C0FF3009D9D44 /* Main.storyboard */,
+				A70FCB991A3CA987006329BA /* MylistViewController.swift */,
+				A70FCBA31A3CCAA4006329BA /* TimelineViewController.swift */,
+				6EC696881A3C538D00656B57 /* SNSApiController.swift */,
+				A70FCB861A3C2D78006329BA /* Bridge-Header.h */,
 				7D5FA17F1A3C0FF3009D9D44 /* Images.xcassets */,
 				7D5FA1811A3C0FF3009D9D44 /* LaunchScreen.xib */,
 				7D5FA1761A3C0FF3009D9D44 /* Supporting Files */,
@@ -112,6 +244,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D7F324A1A3CE0A0001BDF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F32531A3CE0A0001BDF34 /* SwifterDemoiOS.app */,
+				7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */,
+				7D7F32571A3CE0A0001BDF34 /* SwifterMac.framework */,
+				7D7F32591A3CE0A0001BDF34 /* SwifterDemoMac.app */,
+				7D7F325B1A3CE0A0001BDF34 /* SwifterDemoMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A70FCB8B1A3C8FB1006329BA /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A76CEAC31A3CD4D90046FDB1 /* Login.png */,
+				A76CEAC01A3CD0000046FDB1 /* input.png */,
+				A70FCBA51A3CCB53006329BA /* comment1.png */,
+				A70FCBA11A3CC5BD006329BA /* stwitter.png */,
+				A70FCB9F1A3CC5B6006329BA /* sfacebook.png */,
+				A70FCB9D1A3CACDA006329BA /* gear.png */,
+				A70FCB971A3CA096006329BA /* content1.png */,
+				A70FCB951A3C9E12006329BA /* twitter.png */,
+				A70FCB931A3C9E0B006329BA /* facebook.png */,
+				A70FCB8D1A3C8FC4006329BA /* toplogo.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +283,14 @@
 				7D5FA16F1A3C0FF3009D9D44 /* Sources */,
 				7D5FA1701A3C0FF3009D9D44 /* Frameworks */,
 				7D5FA1711A3C0FF3009D9D44 /* Resources */,
+				6EC696861A3C531100656B57 /* Copy Frameworks */,
+				6EDAE84A1A3D1F5900A19473 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7D7F325E1A3D114A001BDF34 /* PBXTargetDependency */,
+				6EC696851A3C52D500656B57 /* PBXTargetDependency */,
 			);
 			name = Lavacake;
 			productName = Lavacake;
@@ -180,6 +345,16 @@
 			mainGroup = 7D5FA16A1A3C0FF3009D9D44;
 			productRefGroup = 7D5FA1741A3C0FF3009D9D44 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 6EC6967C1A3C529200656B57 /* Products */;
+					ProjectRef = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 7D7F324A1A3CE0A0001BDF34 /* Products */;
+					ProjectRef = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7D5FA1721A3C0FF3009D9D44 /* Lavacake */,
@@ -188,13 +363,75 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		6EC696811A3C529200656B57 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 6EC696801A3C529200656B57 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6EC696831A3C529200656B57 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 6EC696821A3C529200656B57 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32531A3CE0A0001BDF34 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 7D7F32521A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 7D7F32541A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32571A3CE0A0001BDF34 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 7D7F32561A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32591A3CE0A0001BDF34 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 7D7F32581A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F325B1A3CE0A0001BDF34 /* SwifterDemoMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterDemoMacTests.xctest;
+			remoteRef = 7D7F325A1A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		7D5FA1711A3C0FF3009D9D44 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D5FA17E1A3C0FF3009D9D44 /* Main.storyboard in Resources */,
+				A76CEAC41A3CD4D90046FDB1 /* Login.png in Resources */,
 				7D5FA1831A3C0FF3009D9D44 /* LaunchScreen.xib in Resources */,
+				A70FCBA61A3CCB53006329BA /* comment1.png in Resources */,
+				A70FCB9E1A3CACDA006329BA /* gear.png in Resources */,
+				A70FCB941A3C9E0B006329BA /* facebook.png in Resources */,
+				A70FCB961A3C9E12006329BA /* twitter.png in Resources */,
+				A70FCBA21A3CC5BD006329BA /* stwitter.png in Resources */,
+				A70FCB981A3CA096006329BA /* content1.png in Resources */,
+				A76CEAC11A3CD0000046FDB1 /* input.png in Resources */,
+				A70FCB8E1A3C8FC4006329BA /* toplogo.png in Resources */,
+				A70FCBA01A3CC5B6006329BA /* sfacebook.png in Resources */,
 				7D5FA1801A3C0FF3009D9D44 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,13 +445,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6EDAE84A1A3D1F5900A19473 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "/Users/tanidahiroki/Desktop/lavacake_ios/facebook-ios-sdk/scripts/build_framework.sh";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D5FA16F1A3C0FF3009D9D44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D5FA17B1A3C0FF3009D9D44 /* ViewController.swift in Sources */,
+				A70FCB9A1A3CA987006329BA /* MylistViewController.swift in Sources */,
+				6EC696891A3C538D00656B57 /* SNSApiController.swift in Sources */,
 				7D5FA1791A3C0FF3009D9D44 /* AppDelegate.swift in Sources */,
+				A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */,
+				A70FCBA41A3CCAA4006329BA /* TimelineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,10 +487,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6EC696851A3C52D500656B57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 6EC696841A3C52D500656B57 /* PBXContainerItemProxy */;
+		};
 		7D5FA18A1A3C0FF3009D9D44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 7D5FA1721A3C0FF3009D9D44 /* Lavacake */;
 			targetProxy = 7D5FA1891A3C0FF3009D9D44 /* PBXContainerItemProxy */;
+		};
+		7D7F325E1A3D114A001BDF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 7D7F325D1A3D114A001BDF34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -338,9 +606,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/winky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -349,9 +624,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/winky/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
 			};
 			name = Release;
 		};
@@ -408,6 +690,7 @@
 				7D5FA1941A3C0FF3009D9D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D5FA1951A3C0FF3009D9D44 /* Build configuration list for PBXNativeTarget "LavacakeTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +699,7 @@
 				7D5FA1971A3C0FF3009D9D44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
