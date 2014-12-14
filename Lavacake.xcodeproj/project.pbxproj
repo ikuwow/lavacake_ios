@@ -19,7 +19,6 @@
 		7D5FA18F1A3C0FF3009D9D44 /* LavacakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA18E1A3C0FF3009D9D44 /* LavacakeTests.swift */; };
 		7D7F325C1A3D113E001BDF34 /* SwifteriOS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCB871A3C3289006329BA /* StartViewController.swift */; };
-		A70FCB8E1A3C8FC4006329BA /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB8D1A3C8FC4006329BA /* toplogo.png */; };
 		A70FCB941A3C9E0B006329BA /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB931A3C9E0B006329BA /* facebook.png */; };
 		A70FCB961A3C9E12006329BA /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB951A3C9E12006329BA /* twitter.png */; };
 		A70FCB981A3CA096006329BA /* content1.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB971A3CA096006329BA /* content1.png */; };
@@ -31,6 +30,10 @@
 		A70FCBA61A3CCB53006329BA /* comment1.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCBA51A3CCB53006329BA /* comment1.png */; };
 		A76CEAC11A3CD0000046FDB1 /* input.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC01A3CD0000046FDB1 /* input.png */; };
 		A76CEAC41A3CD4D90046FDB1 /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = A76CEAC31A3CD4D90046FDB1 /* Login.png */; };
+		A7F71FD11A3D5A66008AF0EB /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F71FD01A3D5A66008AF0EB /* toplogo.png */; };
+		A7F71FD41A3D5A6E008AF0EB /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F71FD21A3D5A6E008AF0EB /* icon-60@2x.png */; };
+		A7F71FD51A3D5A6E008AF0EB /* icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F71FD31A3D5A6E008AF0EB /* icon-60@3x.png */; };
+		A7F71FD71A3D5A72008AF0EB /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7F71FD61A3D5A72008AF0EB /* Default-667h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,7 +142,6 @@
 		7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		A70FCB861A3C2D78006329BA /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 		A70FCB871A3C3289006329BA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		A70FCB8D1A3C8FC4006329BA /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
 		A70FCB931A3C9E0B006329BA /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		A70FCB951A3C9E12006329BA /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
 		A70FCB971A3CA096006329BA /* content1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = content1.png; sourceTree = "<group>"; };
@@ -151,6 +153,10 @@
 		A70FCBA51A3CCB53006329BA /* comment1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comment1.png; sourceTree = "<group>"; };
 		A76CEAC01A3CD0000046FDB1 /* input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = input.png; sourceTree = "<group>"; };
 		A76CEAC31A3CD4D90046FDB1 /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		A7F71FD01A3D5A66008AF0EB /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
+		A7F71FD21A3D5A6E008AF0EB /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		A7F71FD31A3D5A6E008AF0EB /* icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@3x.png"; sourceTree = "<group>"; };
+		A7F71FD61A3D5A72008AF0EB /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,13 +272,16 @@
 				A76CEAC31A3CD4D90046FDB1 /* Login.png */,
 				A76CEAC01A3CD0000046FDB1 /* input.png */,
 				A70FCBA51A3CCB53006329BA /* comment1.png */,
+				A7F71FD21A3D5A6E008AF0EB /* icon-60@2x.png */,
+				A7F71FD31A3D5A6E008AF0EB /* icon-60@3x.png */,
 				A70FCBA11A3CC5BD006329BA /* stwitter.png */,
+				A7F71FD61A3D5A72008AF0EB /* Default-667h@2x.png */,
 				A70FCB9F1A3CC5B6006329BA /* sfacebook.png */,
 				A70FCB9D1A3CACDA006329BA /* gear.png */,
 				A70FCB971A3CA096006329BA /* content1.png */,
+				A7F71FD01A3D5A66008AF0EB /* toplogo.png */,
 				A70FCB951A3C9E12006329BA /* twitter.png */,
 				A70FCB931A3C9E0B006329BA /* facebook.png */,
-				A70FCB8D1A3C8FC4006329BA /* toplogo.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -434,8 +443,11 @@
 				A70FCB961A3C9E12006329BA /* twitter.png in Resources */,
 				A70FCBA21A3CC5BD006329BA /* stwitter.png in Resources */,
 				A70FCB981A3CA096006329BA /* content1.png in Resources */,
+				A7F71FD41A3D5A6E008AF0EB /* icon-60@2x.png in Resources */,
+				A7F71FD51A3D5A6E008AF0EB /* icon-60@3x.png in Resources */,
 				A76CEAC11A3CD0000046FDB1 /* input.png in Resources */,
-				A70FCB8E1A3C8FC4006329BA /* toplogo.png in Resources */,
+				A7F71FD11A3D5A66008AF0EB /* toplogo.png in Resources */,
+				A7F71FD71A3D5A72008AF0EB /* Default-667h@2x.png in Resources */,
 				A70FCBA01A3CC5B6006329BA /* sfacebook.png in Resources */,
 				7D5FA1801A3C0FF3009D9D44 /* Images.xcassets in Resources */,
 			);
@@ -610,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -630,6 +643,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
