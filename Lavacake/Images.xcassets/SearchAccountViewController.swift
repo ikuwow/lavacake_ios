@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwifteriOS
 
 class SearchAccountViewController: UIViewController, UISearchBarDelegate {
     
@@ -32,7 +33,29 @@ class SearchAccountViewController: UIViewController, UISearchBarDelegate {
 
     func searchBarSearchButtonClicked(searchBar: UISearchBar) {
         println(searchBar.text)
-        // let searchQuery = searchBar.text
+        
+        switch searchSNS {
+        case "Twitter":
+        
+            let searchQuery = searchBar.text
+            let swifter = Swifter(consumerKey: "F5bTTXyAbLCxbAWY4nVoqb3yy", consumerSecret: "rZDlgpC8qaV6RerZ2nHCpN17p0q8P3pqk6TMoYwU8WJI56pQRL")
+            let failureHandler: ((NSError) -> Void) = {
+                error in
+                NSLog("test twitter api failure")
+                println(error.domain)
+            }
+            
+            swifter.getUsersSearchWithQuery(searchQuery, page: 1, count: 20, includeEntities: true,
+                success: {(statuses: [JSONValue]?) in
+                    println(statuses)
+                },
+                failure: failureHandler)
+            
+        case "Facebook":
+        println("Facebook is still under construction")
+        default:
+        break
+        }
         
     }
     
