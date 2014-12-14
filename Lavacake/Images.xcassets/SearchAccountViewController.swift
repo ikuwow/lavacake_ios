@@ -9,6 +9,8 @@
 import UIKit
 
 class SearchAccountViewController: UIViewController {
+    
+    var searchSNS: String = ""
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -24,12 +24,16 @@ class RegistrationViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        let next = segue.destinationViewController as SearchAccountViewController
         if let id = segue.identifier {
             switch segue.identifier! {
                 case "searchTwitter":
                     println("twitter")
+                    next.searchSNS = "twitter"
                 case "searchFacebook":
                     println("face")
+                    next.searchSNS = "facebook"
             default:
                 println("engine")
             }
