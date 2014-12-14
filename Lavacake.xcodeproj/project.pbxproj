@@ -16,6 +16,7 @@
 		7D5FA1801A3C0FF3009D9D44 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA17F1A3C0FF3009D9D44 /* Images.xcassets */; };
 		7D5FA1831A3C0FF3009D9D44 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D5FA1811A3C0FF3009D9D44 /* LaunchScreen.xib */; };
 		7D5FA18F1A3C0FF3009D9D44 /* LavacakeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5FA18E1A3C0FF3009D9D44 /* LavacakeTests.swift */; };
+		7D7F325C1A3D113E001BDF34 /* SwifteriOS.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A70FCB881A3C3289006329BA /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70FCB871A3C3289006329BA /* StartViewController.swift */; };
 		A70FCB8E1A3C8FC4006329BA /* toplogo.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB8D1A3C8FC4006329BA /* toplogo.png */; };
 		A70FCB941A3C9E0B006329BA /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = A70FCB931A3C9E0B006329BA /* facebook.png */; };
@@ -60,6 +61,48 @@
 			remoteGlobalIDString = 7D5FA1721A3C0FF3009D9D44;
 			remoteInfo = Lavacake;
 		};
+		7D7F32521A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C1F1944AA1A00993175;
+			remoteInfo = SwifterDemoiOS;
+		};
+		7D7F32541A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F50EE1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
+		7D7F32561A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B9F51131944A61D00894629;
+			remoteInfo = SwifterMac;
+		};
+		7D7F32581A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C471944AECB00993175;
+			remoteInfo = SwifterDemoMac;
+		};
+		7D7F325A1A3CE0A0001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8B300C5A1944AECB00993175;
+			remoteInfo = SwifterDemoMacTests;
+		};
+		7D7F325D1A3D114A001BDF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B9F50ED1944A5AB00894629;
+			remoteInfo = SwifteriOS;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -69,6 +112,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				7D7F325C1A3D113E001BDF34 /* SwifteriOS.framework in Copy Frameworks */,
 				6EC696871A3C533B00656B57 /* Alamofire.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
@@ -90,6 +134,7 @@
 		7D5FA1881A3C0FF3009D9D44 /* LavacakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LavacakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5FA18D1A3C0FF3009D9D44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D5FA18E1A3C0FF3009D9D44 /* LavacakeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LavacakeTests.swift; sourceTree = "<group>"; };
+		7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Swifter.xcodeproj; path = Swifter/Swifter.xcodeproj; sourceTree = "<group>"; };
 		A70FCB861A3C2D78006329BA /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridge-Header.h"; sourceTree = "<group>"; };
 		A70FCB871A3C3289006329BA /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
 		A70FCB8D1A3C8FC4006329BA /* toplogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toplogo.png; sourceTree = "<group>"; };
@@ -142,6 +187,7 @@
 				6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */,
 				7D5FA18B1A3C0FF3009D9D44 /* LavacakeTests */,
 				7D5FA1741A3C0FF3009D9D44 /* Products */,
+				7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,6 +244,18 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		7D7F324A1A3CE0A0001BDF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D7F32531A3CE0A0001BDF34 /* SwifterDemoiOS.app */,
+				7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */,
+				7D7F32571A3CE0A0001BDF34 /* SwifterMac.framework */,
+				7D7F32591A3CE0A0001BDF34 /* SwifterDemoMac.app */,
+				7D7F325B1A3CE0A0001BDF34 /* SwifterDemoMacTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A70FCB8B1A3C8FB1006329BA /* image */ = {
 			isa = PBXGroup;
 			children = (
@@ -230,6 +288,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7D7F325E1A3D114A001BDF34 /* PBXTargetDependency */,
 				6EC696851A3C52D500656B57 /* PBXTargetDependency */,
 			);
 			name = Lavacake;
@@ -290,6 +349,10 @@
 					ProductGroup = 6EC6967C1A3C529200656B57 /* Products */;
 					ProjectRef = 6EC6967B1A3C529200656B57 /* Alamofire.xcodeproj */;
 				},
+				{
+					ProductGroup = 7D7F324A1A3CE0A0001BDF34 /* Products */;
+					ProjectRef = 7D7F32491A3CE0A0001BDF34 /* Swifter.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -312,6 +375,41 @@
 			fileType = wrapper.cfbundle;
 			path = AlamofireTests.xctest;
 			remoteRef = 6EC696821A3C529200656B57 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32531A3CE0A0001BDF34 /* SwifterDemoiOS.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoiOS.app;
+			remoteRef = 7D7F32521A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32551A3CE0A0001BDF34 /* SwifteriOS.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifteriOS.framework;
+			remoteRef = 7D7F32541A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32571A3CE0A0001BDF34 /* SwifterMac.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwifterMac.framework;
+			remoteRef = 7D7F32561A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F32591A3CE0A0001BDF34 /* SwifterDemoMac.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SwifterDemoMac.app;
+			remoteRef = 7D7F32581A3CE0A0001BDF34 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		7D7F325B1A3CE0A0001BDF34 /* SwifterDemoMacTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwifterDemoMacTests.xctest;
+			remoteRef = 7D7F325A1A3CE0A0001BDF34 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -380,6 +478,11 @@
 			isa = PBXTargetDependency;
 			target = 7D5FA1721A3C0FF3009D9D44 /* Lavacake */;
 			targetProxy = 7D5FA1891A3C0FF3009D9D44 /* PBXContainerItemProxy */;
+		};
+		7D7F325E1A3D114A001BDF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwifteriOS;
+			targetProxy = 7D7F325D1A3D114A001BDF34 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,
@@ -492,9 +596,8 @@
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
 			};
 			name = Debug;
 		};
@@ -503,6 +606,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/winky/Documents/FacebookSDK,
@@ -510,9 +614,8 @@
 				INFOPLIST_FILE = Lavacake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lavacake/Bridge-Header.h";
 			};
 			name = Release;
 		};

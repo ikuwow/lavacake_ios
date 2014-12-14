@@ -1,3 +1,6 @@
 [submodule "Alamofire"]
 	path = Alamofire
 	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Swifter"]
+	path = Swifter
+	url = git@github.com:mattdonnelly/Swifter.git
