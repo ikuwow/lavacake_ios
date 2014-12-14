@@ -12,7 +12,6 @@ class RegistrationViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
@@ -25,7 +24,18 @@ class RegistrationViewController: UIViewController {
     }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        println("tset")
+        if let id = segue.identifier {
+            switch segue.identifier! {
+                case "searchTwitter":
+                    println("twitter")
+                case "searchFacebook":
+                    println("face")
+            default:
+                println("engine")
+            }
+        } else {
+            println("null!!")
+        }
     }
 
 }
